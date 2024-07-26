@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Crop Recommandation System</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style/myhome.css')}}">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- <ul> -->
+           <li><a href="#">HOME PAGE</a></li>
+           <li><a href="/about">ABOUT</a></li>
+          <!-- <li><a href="index1" action="/index1" value="index1">Login</a></li> -->
+          <!-- <li><a href="#">Contact</a></li> -->
+        <!-- </ul> -->
+      </nav>
+    </header>
+    <main>
+      <h1></h1>
+      <!-- <p style="color: rgb(13, 13, 13);"> Welcomes you on our website, Hope you are earning well from your farm 
+        but we are here for you to provide some suggetions about your crop cultivation 
+      We recommends you to which crop you should grow in your farm for better yields. Its 
+      very easy to predict which crop you should grow on the basis of your soil nutrients  -->
+      <!-- just you need to know your soil nutrients for this you can test your soil in lab.</p> -->
+      <br>
+      <h1 style="color: rgb(14, 7, 7);"> CROP RECOMMENDATION SYSTEM</h1>
+      <br>
+      <h2 style="color: rgb(38, 11, 11);">Click following button for Crop recommandation</h2>
+    </main>
+     <form action="/Predict">
+      <input type="submit" id="Predict" name="Predict" action="/Predict" value="Predict">
+     </form>
+  </body>
+</html>
